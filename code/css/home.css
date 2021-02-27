@@ -1,0 +1,257 @@
+
+
+body
+{
+    margin: 0;
+    background-color: #000;
+}
+
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;  
+    /* position: fixed; */    
+    top: 0; 
+    width: 100%;
+}
+.socialMedia, .itemsNavBar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoNavBar
+{
+    /* float: left;
+    position: relative;
+    right: 0%;
+    left: 0%;
+    margin: 0;
+    padding: 0; */
+}
+.logoNavBar
+{
+    height: 25px;
+    margin: 10px;
+    justify-self: start;
+    /* float: left; */
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    /* float: left;
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: black; */
+}
+li
+{
+    /* position: relative;
+    left: 32.2%;     */
+    /* float: left; */
+}
+
+.icons
+{
+    justify-self: end;
+    margin: 10px;
+    /* float: right;
+    position: relative;
+    left: 0%; */
+}
+.socialMedia
+{
+    
+}
+
+.icons a svg:hover
+{
+    fill: red;
+}
+
+li a:hover:not(.active)
+{
+    color: red;
+    /* background-color: rgb(29, 29, 29); */
+}
+.active
+{
+    background-color: greenyellow;
+}
+.container
+{
+    background-image: url(/images/coffee.jpg);
+    width: 100%;
+    background-position: center;
+    text-align: center;
+}
+
+.container img
+{
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    /* margin: 4%; */
+}
+
+.about
+{
+    height: 100vh;
+
+}
+
+.titleContainer
+{    
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.title
+{
+    margin-top: 50px;
+    background-color: white;
+    padding-right: 2%;
+    padding-left: 4%;
+}
+.title h1
+{
+    font-weight: 900;
+    font-size: 80px;
+    /* position: relative; */
+}
+
+.textContainer
+{
+    position: relative;
+    margin: 0;
+    width: 45%;
+    float: left;
+    height: auto;
+    /* /* background-color: red; */
+}
+
+.aboutText
+{
+    background-color: red;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    margin: 0;
+    /* position: relative; */
+    /* left: 10%;
+    margin: 50px 0px 60px 150px;
+    /* padding: 0; */
+    word-wrap: break-word;
+    /* margin: 0;
+    width: 600px;
+    /* height: auto; */
+}
+
+.youtube
+{
+    margin: 0 0 0 100px;
+    position: relative;
+    bottom: 120px;
+    float: left;
+    /* float: right; */
+}
+
+.imageButtons
+{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    height: 75vh;    
+    margin: 0;
+    padding: 0;
+}
+.animatedButtonFood
+{    
+    background-image: url("/images/the-kitchen-restaurant.jpg");
+    width: 33.33%;
+    height: 100%;
+
+    /* height: 100%;     */
+    /* color: white; */
+}
+
+.animatedButtonEvents
+{
+    background-image: url("/images/group-of-seated-people-talking.jpg");
+    width: 33.33%;
+    height: 100%;
+
+
+    /* height: 100%; */
+    /* color: white; */
+}
+
+.animatedButtonRooms 
+{
+    background-image: url("/images/84a6d1843132a7ca8547b69e27e68907.jpg");
+    width: 33.33%;
+    height: 100%;
+    /* height: 100%; */
+    /* color: white; */
+}
+
+.animatedButtonFood h3
+{      
+    margin: 0;
+    color: white;
+    position: relative;
+    background-color: black;
+    font-weight: 900;
+    font-size: 35px;
+    float: left;    
+    padding-right: 5%;
+    padding-left: 10%;
+    top: 50%;
+}
+.animatedButtonEvents h3
+{
+    margin: 0;
+    color: white;
+    position: relative;
+    background-color: black;
+    font-weight: 900;
+    font-size: 35px;
+    float: left;    
+    padding-right: 5%;
+    padding-left: 10%;
+    top: 50%;
+
+}
+
+.animatedButtonRooms h3
+{
+    margin: 0;
+    color: white;
+    position: relative;
+    background-color: black;
+    font-weight: 900;
+    font-size: 35px;
+    float: left;    
+    padding-right: 5%;
+    padding-left: 10%;
+    top: 50%;
+}
