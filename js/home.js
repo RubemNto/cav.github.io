@@ -1,7 +1,7 @@
 window.onload = function () {
-    var backgroundImg=["/images/donuts.jpg",
-                      "/images/salads.jpg",
-                      "/images/coffee.jpg",
+    var backgroundImg=["../images/donuts.jpg",
+                      "../images/salads.jpg",
+                      "../images/coffee.jpg",
                       ]
     setInterval(changeImage, 5000);
 

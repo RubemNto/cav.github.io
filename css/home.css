@@ -96,7 +96,7 @@ li a:hover:not(.active)
 }
 .container
 {
-    background-image: url(images/coffee.jpg);
+    background-image: url(../images/coffee.jpg);
     width: 100%;
     background-position: center;
     text-align: center;
@@ -186,7 +186,7 @@ li a:hover:not(.active)
 }
 .animatedButtonFood
 {    
-    background-image: url("images/the-kitchen-restaurant.jpg");
+    background-image: url("../images/the-kitchen-restaurant.jpg");
     width: 33.33%;
     height: 100%;
 
@@ -196,7 +196,7 @@ li a:hover:not(.active)
 
 .animatedButtonEvents
 {
-    background-image: url("images/group-of-seated-people-talking.jpg");
+    background-image: url("../images/group-of-seated-people-talking.jpg");
     width: 33.33%;
     height: 100%;
 
@@ -207,7 +207,7 @@ li a:hover:not(.active)
 
 .animatedButtonRooms 
 {
-    background-image: url("images/84a6d1843132a7ca8547b69e27e68907.jpg");
+    background-image: url("../images/84a6d1843132a7ca8547b69e27e68907.jpg");
     width: 33.33%;
     height: 100%;
     /* height: 100%; */
