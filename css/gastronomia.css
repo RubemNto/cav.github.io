@@ -1,0 +1,153 @@
+
+
+.pqCAv
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+.pqCavSection h2
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 15vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.segmento
+{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    /* background-color: red; */
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.segmento h3
+{
+    margin: 5% 0 0 5%;
+    text-align: left;
+    color: white;
+
+}
+.segmento p
+{
+    margin: 5% 0 0 5%;
+    color: white;
+    text-align: left;
+}
+
+.gastronomiaTitle
+{
+    width: 100%;
+    text-align: center;
+    font-size: 12vh;
+    /* position: relative; */
+    /* top: 35%; */
+    margin: 0;
+    padding: 0;
+    
+    color: red;
+}
+
+.JantaresPayToEat
+{
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.JantaresPayToEat h1
+{
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+    font-size: 15vh;
+}
+
+.JantaresPayToEat .evento
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.JantaresPayToEat .evento .jantarSection
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* background-color: rebeccapurple; */
+    /* float: right; */
+    height: 50vh;
+    
+}
+.JantaresPayToEat h1
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.JantaresPayToEat .evento img
+{
+    padding: 0;
+    margin: 1%;
+    /* justify-self: left; */
+    height: 50vh;
+    width: 80vh;    
+}
+
+.JantaresPayToEat .evento .jantarSection h2
+{
+    padding: 0;
+    color: white;
+    margin: 0;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.JantaresPayToEat .evento button
+{
+    justify-self:flex-end;
+    border: none;
+    text-decoration: none;
+    align-self: center;
+    width: 25%;
+    height: 30%;
+    border-radius: 100px;
+    font-size: 3vw;
+}
+
+.JantaresPayToEat .evento p
+{
+    align-self: center;
+    text-align: justify;
+    word-wrap: break-word;
+    width: 90%; 
+    font-size: 120%;     
+    color: white;  
+    /* margin-top: 2vh;
+    padding: 0;
+    word-wrap: break-word;
+    text-align: justify;
+    font-size: 143%;
+    width: 50vw; */
+}

@@ -1,0 +1,191 @@
+.container .gastronomiaTitle
+{
+    text-align: center;
+    font-size: 15vh;
+    text-transform: uppercase;
+    color: red;
+    width: 25%;
+    word-wrap: break-word;
+    /* background-color: red; */
+    position: absolute;
+    top: 10%;
+    transform: translateY(-10%);
+}
+
+.aboutRooms
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/profilePic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutRooms .aboutRoomsContainerI
+{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+
+
+}
+.aboutRooms .aboutRoomsText
+{
+    color: black;
+    text-align: center;
+    width: 80%;
+    word-wrap: break-word;
+}
+.aboutRooms .aboutRoomsContainerI button
+{
+    border-radius: 25%;
+    border: none;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    width: 20%;
+    font-size: 6vh;
+    text-align: center;
+    margin: 3vh;
+    /* padding: 2.5vw; */
+}
+
+.rooms
+{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(../images/profilePic.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* background-position: center; */
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: red; */
+    /* align-items: center; */
+}
+
+.rooms .roomSection
+{
+    width: 19vw;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rooms .roomSection .roomSectionData
+{
+    background-color: white;
+    border-radius: 0px 0px 50px 50px;
+    padding-bottom: 20px;
+}
+
+.rooms .roomSection p
+{
+    word-wrap: break-word;
+    text-align: center;
+    position: relative;
+    left: 2.5%;    
+    width: 95%;
+}
+
+
+.rooms .roomSection img
+{
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
+
+
+.rooms .roomSection button
+{
+    width: 50%;
+    justify-self: center;
+    position: relative;
+    left: 25%;
+    border: none;
+    background-color: rgb(71, 71, 71);
+    height: 5vh;
+    border-radius: 50px;
+    color: white;
+}
+
+.room
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    background-image: url(../images/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.room .roomData
+{
+    margin-top: 10vh;
+    margin-right: 10vh;
+    margin-left: 2vh;
+    background-color: white;
+    /* border-radius: 25px 0px 0px 25px; */
+    width: 40%;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+}
+
+.room .roomData p
+{   
+    align-self: flex-end;
+    color: black;
+    text-align: right;
+    width: 90%;
+    word-wrap: break-word;
+    margin-top: 5%;
+    margin-right: 6.5%;
+    /* margin-left: 10%; */
+
+
+
+    padding:0;
+}
+
+.room .roomImage img
+{
+    margin: 5vh 0vh 0 0;
+    height: 60vh;
+    width: 106.6vh;
+    align-self: flex-end;
+    padding: 0;  
+}
+
+.room .roomData button
+{
+    width: 50%;
+    align-self: flex-end;
+    
+    /* position: relative;
+    top: 40%;
+    left: 40%; */
+    /* margin: 0; */
+    margin-right: 6.5%;
+    padding: 0;
+    border-radius: 50px;
+    border: none;
+    height: 10vh;
+    font-size: 30px;
+}

@@ -1,4 +1,13 @@
+@font-face 
+{
+    font-family: myFirstFont;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
 
+*
+{
+    font-family: myFIrstFont;
+}
 
 body
 {
@@ -28,15 +37,7 @@ ul
     flex-direction: row;
 }
 
-.logoNavBar
-{
-    /* float: left;
-    position: relative;
-    right: 0%;
-    left: 0%;
-    margin: 0;
-    padding: 0; */
-}
+
 .logoNavBar
 {
     height: 25px;
@@ -75,10 +76,6 @@ li
     position: relative;
     left: 0%; */
 }
-.socialMedia
-{
-    
-}
 
 .icons a svg:hover
 {
@@ -98,13 +95,21 @@ li a:hover:not(.active)
 {
     background-image: url(../images/coffee.jpg);
     width: 100%;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* direction: row; */
+    justify-content:center;
+    align-items:center;
     background-position: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container img
 {
-    height: 50vh;
+    /* vertical-align: middle; */
+    height: 40vh;
     margin: 0;
     padding: 0;
     /* margin: 4%; */
@@ -113,66 +118,73 @@ li a:hover:not(.active)
 .about
 {
     height: 100vh;
-
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.titleContainer
-{    
+.about .aboutData
+{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 80%;
+    /* background-color: red; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.about .aboutData .aboutTitle
+{
+    width: 100%;
+
+    /* justify-self: flex-start; */
+}
+
+.about .aboutData .aboutTitle h2
+{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    text-transform: uppercase;
+}
+.about .aboutData .aboutText
+{
+    justify-self: left;
+    align-self: left;
+    width: 80%;
+}
+
+.about .aboutData .aboutText p
+{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+.about .iconsArea
+{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 50vw;
+    /* background-color: red   ; */
 }
 
-.title
+.about .iconsArea img
 {
-    margin-top: 50px;
-    background-color: white;
-    padding-right: 2%;
-    padding-left: 4%;
-}
-.title h1
-{
-    font-weight: 900;
-    font-size: 80px;
-    /* position: relative; */
+    margin: 5%;
+    padding: 0;
+    border-radius: 50%;
+    height: 30vh;
 }
 
-.textContainer
-{
-    position: relative;
-    margin: 0;
-    width: 45%;
-    float: left;
-    height: auto;
-    /* /* background-color: red; */
-}
 
-.aboutText
-{
-    background-color: red;
-    text-align: center;
-    padding: 0px;
-    color: white;
-    margin: 0;
-    /* position: relative; */
-    /* left: 10%;
-    margin: 50px 0px 60px 150px;
-    /* padding: 0; */
-    word-wrap: break-word;
-    /* margin: 0;
-    width: 600px;
-    /* height: auto; */
-}
-
-.youtube
-{
-    margin: 0 0 0 100px;
-    position: relative;
-    bottom: 120px;
-    float: left;
-    /* float: right; */
-}
 
 .imageButtons
 {
@@ -221,7 +233,7 @@ li a:hover:not(.active)
     position: relative;
     background-color: black;
     font-weight: 900;
-    font-size: 35px;
+    font-size:200%;
     float: left;    
     padding-right: 5%;
     padding-left: 10%;
@@ -234,7 +246,7 @@ li a:hover:not(.active)
     position: relative;
     background-color: black;
     font-weight: 900;
-    font-size: 35px;
+    font-size:200%;
     float: left;    
     padding-right: 5%;
     padding-left: 10%;
@@ -249,7 +261,7 @@ li a:hover:not(.active)
     position: relative;
     background-color: black;
     font-weight: 900;
-    font-size: 35px;
+    font-size:200%;
     float: left;    
     padding-right: 5%;
     padding-left: 10%;
