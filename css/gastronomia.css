@@ -14,7 +14,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     color: white;
-    font-size: 15vh;
+    font-size: 10vw;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -51,7 +51,9 @@
 {
     width: 100%;
     text-align: center;
-    font-size: 12vh;
+    justify-self: center;
+    align-self: center;
+    font-size: 12vw;
     /* position: relative; */
     /* top: 35%; */
     margin: 0;
@@ -103,6 +105,7 @@
 .JantaresPayToEat h1
 {
     width: 100%;
+    font-size: 13.5vw;
     margin: 0;
     padding: 0;
 }
@@ -152,4 +155,45 @@
     text-align: justify;
     font-size: 143%;
     width: 50vw; */
+}
+
+@media screen and (max-width:800px)
+{
+    .pqCAv
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .segmento
+    {
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+        /* background-color: red; */
+        /* float: left; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .segmento h3
+    {
+        margin: 5% 0 0 5%;
+        text-align: center;
+        color: white;
+
+    }
+
+    .segmento p
+    {
+        margin: 5% 0 20% 5%;
+        color: white;
+        text-align: center;
+    }
 }
