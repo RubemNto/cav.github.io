@@ -560,7 +560,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
 }
 
-@media screen and (max-width:800px)
+/* @media screen and (max-width:800px)
 {
     .about
     {
@@ -647,4 +647,4 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         top: 50%;
     }
         
-}
+} */
