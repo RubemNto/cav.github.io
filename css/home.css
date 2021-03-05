@@ -7,12 +7,23 @@
 *
 {
     font-family: myFIrstFont;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 body
 {
     margin: 0;
     background-color: #000;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 
@@ -100,7 +111,7 @@ li a:hover:not(.active)
 {
     background-image: url(../images/coffee.jpg);
     width: 100%;
-    height: 50vh;
+    height: 35vw;
     margin: 0;
     padding: 0;
     display: flex;
@@ -114,7 +125,7 @@ li a:hover:not(.active)
 .container img
 {
     /* vertical-align: middle; */
-    height: 40vh;
+    height: 25vw;
     margin: 0;
     padding: 0;
     /* margin: 4%; */
@@ -122,7 +133,7 @@ li a:hover:not(.active)
 
 .about
 {
-    height: 100vh;
+    height: 60vw;
     display: flex;
     direction: row;
     justify-content: center;
@@ -164,7 +175,7 @@ li a:hover:not(.active)
 {
     color: white;
     text-align: center;
-    font-size: 150%;
+    font-size: 1.7vw;
 }
 
 .about .iconsArea
@@ -186,7 +197,7 @@ li a:hover:not(.active)
     margin: 5%;
     padding: 0;
     border-radius: 50%;
-    height: 30vh;
+    height: 12vw;
 }
 
 
@@ -246,7 +257,7 @@ li a:hover:not(.active)
     position: relative;
     background-color: black;
     font-weight: 900;
-    font-size:200%;
+    font-size:3.5vw;
     float: left;    
     padding-right: 5%;
     padding-left: 10%;
@@ -259,7 +270,7 @@ li a:hover:not(.active)
     position: relative;
     background-color: black;
     font-weight: 900;
-    font-size:200%;
+    font-size:3.5vw;
     float: left;    
     padding-right: 5%;
     padding-left: 10%;
@@ -274,7 +285,7 @@ li a:hover:not(.active)
     position: relative;
     background-color: black;
     font-weight: 900;
-    font-size:200%;
+    font-size:3.5vw;
     float: left;    
     padding-right: 5%;
     padding-left: 10%;
@@ -443,4 +454,126 @@ label.fcf-label {
 
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
+}
+
+@media screen and (max-width:425px)
+{
+    .about
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .iconsArea
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 50vw;
+        width: 100%;
+        background-color: red   ;
+    }
+
+}
+
+@media screen and (max-width:800px)
+{
+    .about
+    {
+        height: 100vh;
+    }
+
+    .about .iconsArea
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 50vw;
+        /* background-color: red   ; */
+    }
+
+    .about .iconsArea img
+    {
+        margin: 1%;
+        padding: 0;
+        border-radius: 50%;
+        height: 20vw;
+    }
+
+    .about .aboutData .aboutText p
+    {
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .imageButtons
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+        width: 100%;    
+        margin: 0;
+        padding: 0;
+    }
+    .animatedButtonFood , .animatedButtonEvents , .animatedButtonRooms
+    {
+        width: 100%;
+
+    }
+
+    .animatedButtonFood h3
+    {      
+        margin: 0;
+        color: white;
+        position: relative;
+        background-color: black;
+        font-weight: 900;
+        font-size:5vw;
+        /* float: left;    
+        padding-right: 5%;
+        padding-left: 10%; */
+        top: 50%;
+    }
+    .animatedButtonEvents h3
+    {
+        margin: 0;
+        color: white;
+        position: relative;
+        background-color: black;
+        font-weight: 900;
+        font-size:5vw;
+        /* float: left;    
+        padding-right: 5%;
+        padding-left: 10%; */
+        top: 50%;
+
+    }
+
+    .animatedButtonRooms h3
+    {
+        margin: 0;
+        color: white;
+        position: relative;
+        background-color: black;
+        font-weight: 900;
+        font-size:5vw;
+        /* float: left;    
+        padding-right: 5%;
+        padding-left: 10%; */
+        top: 50%;
+    }
+        
 }
