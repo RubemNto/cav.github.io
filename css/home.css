@@ -456,8 +456,41 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
+.itemsNavBarMobile li
+{
+    display: none;
+}
+.icon
+{
+    display: none;
+}
 @media screen and (max-width:800px)
 {
+
+    ul .itemsNavBar
+    {
+        display: none;
+    }
+
+    .icon
+    {
+        display: block;
+        position: relative;
+        left: 30px;       
+    }   
+
+    .itemsNavBarMobile li
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itemsNavBarMobile li a
+    {
+        text-align: center;    
+    }
     .about
     {
         display: flex;
