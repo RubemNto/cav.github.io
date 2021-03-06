@@ -55,6 +55,7 @@
 .sobreEvents .sobreEventsData iframe
 {
     margin: 10vh;
+    opacity: 0;
 }
 
 @media screen and (max-width:800px)
@@ -106,8 +107,7 @@
 
     .sobreEvents .sobreEventsData iframe
     {
+        display: none;
         margin: 0;
-        justify-self: flex-end;
-        align-self: center;
     }
 }
