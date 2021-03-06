@@ -2,7 +2,7 @@
 {
     width: 100%;
     text-align: center;
-    font-size: 0vw;
+    font-size: 10vw;
     /* position: relative; */
     /* top: 35%; */
     margin: 0;
@@ -13,15 +13,16 @@
 
 .sobreEvents
 {
-    height: 80vh;
+    
     width: 100%;
+    height: 40vw;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     background-image: url(../images/coffee.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
 
 }
 .sobreEvents .sobreEventsData
@@ -30,11 +31,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
-    width: 60vh;
+    height: 100%;
+    width: 70vw;
     background-color: white;
-    /* margin-right: 10%; */
-    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-left: 10%; */
+    /* margin-left: 10%; */
 }
 
 .sobreEvents .sobreEventsData h2
@@ -42,6 +44,8 @@
     text-align: center;
     align-self: flex-end;
     margin-right: 15%;
+    font-size: 2vw;
+
 }
 
 .sobreEvents .sobreEventsData p
@@ -50,40 +54,50 @@
     align-self: flex-end;
     margin-right: 10%;
     width: 90%;
+    font-size: 1.2vw;
 }
 
-.sobreEvents .sobreEventsData iframe
+.sobreEvents iframe
 {
     margin: 10vh;
-    opacity: 0;
+    height: 25vw;
+    width: 80vw;
+    /* opacity: 0; */
 }
 
 @media screen and (max-width:800px)
 {
     .sobreEvents
     {
-        height: 90vw;
+        /* height: 100vh; */
         width: 100%;
-        padding:0%;
+        height: auto;
+        margin: 0;
+        padding:0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-image: url(../images/coffee.jpg);
         background-repeat: no-repeat;
-        background-size:100%;
+        background-size: cover;
     }
 
     .sobreEvents .sobreEventsData
     {
-        /* display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
+        /* position: relative;
+        bottom: 10vw; */
+
         height: 30vw;
         width: 100%;
         background-color: white;
-        margin: 0;
+        margin: 2.5vw;
+        margin-top: 5vw;
+        padding: 0;
         /* margin-right: 10%; */
         /* margin-left: 0; */
     }
@@ -106,9 +120,15 @@
         width: 90%;
     }
 
-    .sobreEvents .sobreEventsData iframe
+    .sobreEvents iframe
     {
-        display: none;
         margin: 0;
+        padding: 0;
+        height: 40vw;
+        width: 80%;
+        margin: 2.5vw;
+        margin-bottom: 5vw;
+        /* display: none; */
+        /* height: 10px; */
     }
 }
