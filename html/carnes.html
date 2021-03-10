@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="icon" href="images/cavlogo.png">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/carnes.css">
+    <link rel="icon" href="../images/cavlogo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>CAV COMER AMAR E VIAJAR</title>
@@ -14,27 +15,26 @@
     <!-- navigation bar -->
     <ul>
         <!-- <li class="logoNavBar"> -->
-        <img class="logoNavBar" src="images/cavlogo.png" alt="">
+        <img class="logoNavBar" src="../images/cavlogo.png" alt="">
         <!-- </li> -->
         <div class="itemsNavBar">
             <li>
-                <a href="index.html">HOME</a>
+                <a href="../index.html">HOME</a>
             </li>
             <li>
-                <a href="html/gastronomia.html">Gastronomia</a>
+                <a href="../html/gastronomia.html">Gastronomia</a>
             </li>
             <li>
-                <a href="html/eventos.html">Eventos</a>
+                <a href="../html/eventos.html">Eventos</a>
             </li>
             <li>
-                <a href="html/salas.html">Salas</a>
+                <a href="../html/salas.html">Salas</a>
             </li>
             <li>
                 <a href="#fcf-form">Contato</a>
             </li>
-
             <li>
-                <a href="html/carnes.html">Carnes</a>
+                <a href="../html/carnes.html">Carnes</a>
             </li>
         </div>
 
@@ -82,7 +82,6 @@
         <li class="myLinks">
             <a href="#fcf-form">Contato</a>
         </li>
-
         <li class="myLinks">
             <a href="../html/carnes.html">Carnes</a>
         </li>
@@ -91,54 +90,61 @@
     
     <!-- logo and images top -->
     <div class="container" id="headerImages">
-        <img src="images/cavlogo.png" alt="">                                
+        <h1>
+            Carnes
+        </h1>
+    </div>
+
+    <div class="carnesSections">
+        <div class="carnesContainer">
+            <div class="columnTabs">
+                <div class="tab" id="carne1" onclick="carne('1')">
+                    <h1>carne 1</h1>
+                </div>
+                <div class="tab" id="carne1" onclick="carne('2')">
+                    <h1>carne 2</h1>
+                </div>
+                <div class="tab" id="carne1" onclick="carne('3')">
+                    <h1>carne 3</h1>
+                </div>
+                <div class="tab" id="carne1" onclick="carne('4')">
+                    <h1>carne 4</h1>
+                </div>
+                <div class="tab" id="carne1" onclick="carne('5')">
+                    <h1>carne 5</h1>
+                </div>
+            </div>
+
+            <div class="tabsData">
+                <div class="tabsDataContainer" id="tabsDataContainer">
+                    <div class="tabsContainerText" id="1" style="display: block;">
+                        <p>carne 1 carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1carne 1</p>
+                    </div>
+                    <div class="tabsContainerText" id="2" style="display: none;">
+                        <p>carne 2</p>
+                    </div>
+                    <div class="tabsContainerText" id="3" style="display: none;">
+                        <p>carne 3</p>
+                    </div>
+                    <div class="tabsContainerText" id="4" style="display: none;">
+                        <p>carne 4</p>
+                    </div>
+                    <div class="tabsContainerText" id="5" style="display: none;">
+                        <p>carne 5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- end logo and images top -->
-    <!-- start about segment -->
-    <div class="about">
-        <div class="aboutData">
-            <!-- title -->
-            <div class="aboutTitle">
-                <h2>Sobre a CAV</h2>
-            </div>
-            <div class="aboutText">
-                <p>
-                    sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav  
-                    sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav sobre a cav  
-                </p>
-            </div>
-            <!-- text describing CAV -->
+
+    <div class="videoSection">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/C5s-BnOeS4Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="iconsArea">
-            <!-- imges displayed in a stack -->
-            <img src="images/profilePic.jpg" alt="">
-            <img src="images/profilePic.jpg" alt="">
-            <img src="images/profilePic.jpg" alt="">
-            <img src="images/profilePic.jpg" alt="">
-        </div>
-
-
     </div>
-    <!-- end start segment -->
-
-    <div class="imageButtons">
-        <a href="html/gastronomia.html" class="animatedButtonFood">
-                <h3>
-                    GASTRONOMIA
-                </h3>
-        </a>
-        <a href="html/eventos.html" class="animatedButtonEvents">
-                <h3>
-                    EVENTOS
-                </h3>
-        </a>
-        <a href="html/salas.html" class="animatedButtonRooms">
-                <h3>
-                    SALAS
-                </h3>
-        </a>       
-    </div>
-
+    
     <div id="fcf-form">
         <h3 class="fcf-h3">Contato</h3>
     
@@ -172,6 +178,12 @@
     </div>
 
     <script>
+        var data = null;
+        var images =   ["../images/food1.jpg",
+                        "../images/food2.jpg",
+                        "../images/food3.jpg",
+                        "../images/food4.jpg",
+                        "../images/food5.jpg"];
         function myFunction() 
         {
             var x = document.getElementById("mobileNavBar");
@@ -183,6 +195,58 @@
             {
                 x.style.display = "block";
             }
+        }
+
+        function carne(id) 
+        {
+            data = document.getElementsByClassName("tabsContainerText");
+            // alert(data.length);
+            for (i = 0; i < data.length; i++) 
+            {
+                data[i].style.display = "none";
+            }
+            var x = document.getElementById(id);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+            changeBackgroundCarne(id);
+        }
+
+        // tabsDataContainer
+
+        function changeBackgroundCarne(id)
+        {
+            var background = document.getElementById("tabsDataContainer");
+            if(id == "1")
+            {
+                background.style.backgroundImage = "url("+images[0]+")";
+                background.style.backgroundSize = "cover";
+                background.style.backgroundRepeat = "no-repeat";
+            }
+            else if(id == "2")
+            {
+                background.style.background = "url("+images[1]+")";
+                background.style.backgroundSize = "cover";
+                background.style.backgroundRepeat = "no-repeat";
+            }
+            else if(id == "3")
+            {
+                background.style.background = "url("+images[2]+")";
+                background.style.backgroundSize = "cover";
+                background.style.backgroundRepeat = "no-repeat";
+            }
+            else if(id == "4")
+            {
+                background.style.background = "url("+images[3]+")";
+                background.style.backgroundSize = "cover";
+                background.style.backgroundRepeat = "no-repeat";
+            }
+            else if(id == "5")
+            {
+                background.style.background = "url("+images[4]+")";
+                background.style.backgroundSize = "cover";
+                background.style.backgroundRepeat = "no-repeat";
+            } 
         }
     </script>
 </body>

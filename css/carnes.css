@@ -1,0 +1,169 @@
+.container h1
+{
+    width: 100%;
+    text-align: center;
+    font-size: 10vw;
+    /* position: relative; */
+    /* top: 35%; */
+    margin: 0;
+    padding: 0;
+    
+    color: red;
+}
+
+.carnesSections /*carnes section base settings*/
+{
+    width: 100%;
+    height: 40vw;
+    /* background-color: red; */
+    margin: 0;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.carnesSections .carnesContainer /*displays the carnes section in a row*/
+{
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.carnesSections .carnesContainer .columnTabs /*displays the tabs in a column formation*/
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;   
+    margin: 0;
+    padding:0;
+}
+
+.carnesSections .carnesContainer .columnTabs .tab /*settings for the tabs*/
+{
+    width: 12vw;
+    height: 5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    padding: 0;    
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: purple;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.carnesSections .carnesContainer .columnTabs .tab:hover /*settings for the tabs*/
+{
+    /* width: 18vw; */
+    transform: translateX(20px);
+    /* background-color: red; */
+}
+.carnesSections .carnesContainer .columnTabs .tab h1 /*settings for the tabs text*/
+{
+    width: auto;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    color: white;    
+    font-size: 2vw;
+}
+
+.carnesSections .carnesContainer .tabsData  /*right area of tabs*/
+{
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carnesSections .carnesContainer .tabsData .tabsDataContainer /*the container itself*/
+{
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    /* padding: 2vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../images/food1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+    z-index: 2;
+
+}
+
+.carnesSections .carnesContainer .tabsData .tabsDataContainer .tabsContainerText /*the text*/
+{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1vw;
+    
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 25px;
+}
+
+.carnesSections .carnesContainer .tabsData .tabsDataContainer .tabsContainerText p/*the text*/
+{
+    font-size: 1.5vw;
+    align-self: center;
+    margin-left: 5%;
+    padding: 0;
+    word-wrap: break-word;
+    color: white;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.videoSection
+{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.videoSection .video
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoSection .video iframe
+{
+    height: 35vw;
+    width: 65vw;
+}

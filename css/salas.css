@@ -1,15 +1,13 @@
 .container .gastronomiaTitle
 {
+    width: 100%;
     text-align: center;
-    font-size: 15vh;
-    text-transform: uppercase;
+    justify-self: center;
+    align-self: center;
+    font-size: 10vw;
+    margin: 0;
+    padding: 0;
     color: red;
-    width: 25%;
-    word-wrap: break-word;
-    /* background-color: red; */
-    position: absolute;
-    top: 10%;
-    transform: translateY(-10%);
 }
 
 .aboutRooms
@@ -30,12 +28,13 @@
 {
     background-color: white;
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 10%;
+    /* position: relative;
+    top: 10%; */
 
 
 }
@@ -48,7 +47,7 @@
 }
 .aboutRooms .aboutRoomsContainerI button
 {
-    border-radius: 25%;
+    border-radius: 50px;
     border: none;
     text-transform: uppercase;
     /* text-decoration: none; */
@@ -167,7 +166,7 @@
 .room .roomImage img
 {
     margin: 5vh 0vh 0 0;
-    height: 60vh;
+    height: 20vw;
     width: 106.6vh;
     align-self: flex-end;
     padding: 0;  
@@ -187,5 +186,186 @@
 
 @media screen and (max-width:800px)
 {
+    .aboutRooms
+    {
+        margin: 0;
+        padding: 0;
+        background-image: url(../images/profilePic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        padding: 5vw;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .aboutRooms .aboutRoomsContainerI
+    {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutRooms .aboutRoomsText
+    {
+        color: black;
+        text-align: justify;
+        width: 80%;
+        word-wrap: break-word;
+    }
+
+    .aboutRooms .aboutRoomsContainerI button
+    {
+        border-radius: 50px;
+        border: none;
+        text-transform: uppercase;
+        height: 15vw;
+        width: 60%;
+        font-size: 6vh;
+        text-align: center;
+        margin: 3vh;
+    }
+    
+    .rooms
+    {
+        margin: 0;
+        padding-top: 10vw;
+        padding-bottom: 10vw;        
+        height: auto;
+        width: 100%;
+        /* background-color: rebeccapurple; */
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        right: 2vw;
+        
+    }
+
+    .rooms .roomSection
+    {
+        width: 19vw;
+        margin: 5%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rooms .roomSection .roomSectionData
+    {
+        background-color: white;
+        width: 120%;
+        height: 60%;
+        border-radius: 0px 0px 50px 50px;
+        padding-bottom: 20px;
+    }
+
+    .rooms .roomSection p
+    {
+        word-wrap: break-word;
+        text-align: center;
+        position: relative;
+        left: 2.5%;    
+        width: 95%;
+    }
+
+
+    .rooms .roomSection img
+    {
+        height: 50%;
+        width: 120%;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+
+    .rooms .roomSection button
+    {
+        width: 50%;
+        justify-self: center;
+        position: relative;
+        left: 25%;
+        border: none;
+        background-color: rgb(71, 71, 71);
+        height: 5vh;
+        border-radius: 50px;
+        color: white;
+    }
+
+    .room
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/coffee.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    }
+
+    .room .roomData
+    {
+        margin: 0;
+        margin-top: 5vw;
+        margin-bottom:5vw;
+        padding: 0;
+        background-color: white;
+        width: 90%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .room .roomData p
+    {   
+        align-self: center;
+        color: black;
+        text-align: justify;
+        width: 85%;
+        word-wrap: break-word;
+        margin: 0;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        padding:0;
+    }
+
+    .room .roomImage
+    {
+        margin-top: 10vw;
+    }
+    
+    .room .roomImage img
+    {
+        /* margin: 5vh 0vh 0 0; */
+        height: 60vh;
+        width: 90vw;
+        margin: 0;
+        align-self: center;
+        padding: 0;  
+    }
+
+    .room .roomData button
+    {
+        width: 50%;
+        align-self: center;
+        padding: 0;
+        border-radius: 50px;
+        border: none;
+        height: 10vh;
+        margin-bottom: 5vw;
+        font-size: 30px;
+    }
 }
